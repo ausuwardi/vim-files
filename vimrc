@@ -13,7 +13,7 @@ autocmd Filetype gitcommit set tw=72
 set number
 set relativenumber
 
-" Powerline optimization
+" Powerline/airline optimization
 set laststatus=2    " Always display the statusline in all windows
 set showtabline=2   " Always display the tabline, even if there is only one tab
 set t_Co=256
@@ -33,6 +33,8 @@ let NERDTreeAutoDeleteBuffer = 1
 let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
 
-" Powerline
-set rtp+=~/.vim/bundle/powerline/powerline/bindings/vim
+" Color scheme
+colorscheme wombat256mod
 
+" Airline
+let g:airline_theme='luna'
