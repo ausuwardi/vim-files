@@ -34,7 +34,8 @@ let NERDTreeMinimalUI = 1
 let NERDTreeDirArrows = 1
 
 " Color scheme
-colorscheme wombat256mod
+set background=dark
+colorscheme gruvbox
 
 " Airline
 let g:airline_theme='luna'
